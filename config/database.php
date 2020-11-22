@@ -3,6 +3,7 @@
 use Illuminate\Support\Str;
 
 return [
+    'debug' => env('APP_DEBUG', true),
 
     /*
     |--------------------------------------------------------------------------
