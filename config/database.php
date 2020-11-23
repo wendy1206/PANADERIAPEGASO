@@ -3,9 +3,7 @@
 use Illuminate\Support\Str;
 
 return [
-    'debug' => env('APP_DEBUG', true),
-    'key' => env('APP_KEY', 'd20f70d15734b9429095f099e80d31eed1457e4622de02ffbda884331e3172e3'),
-
+    
     /*
     |--------------------------------------------------------------------------
     | Default Database Connection Name

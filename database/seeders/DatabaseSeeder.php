@@ -17,5 +17,12 @@ class DatabaseSeeder extends Seeder
             'email' => 'jorge.380171120914@ucaldas.edu.co',
             'password' => bcrypt('jorge7415'),
         ]);
+
+        DB::table('users')->insert([
+            'id' => 2,
+            'name' => 'Marlon Nieves',
+            'email' => 'marlon.3801711612@ucaldas.edu.co',
+            'password' => bcrypt('12345'),
+        ]);
     }
 }
